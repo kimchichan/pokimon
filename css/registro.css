@@ -1,0 +1,80 @@
+body {
+    background-image: url('https://wallpapers.com/images/featured/gengar-15wvx6l3mapvq4pf.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.content-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p.subtitle {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.col{
+    float:left; 
+    display:block;
+    }
+.col1{
+    float:right; 
+    display:block;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    display: block;
+}
+
+button {
+    width: 80%;
+    padding: 10px;
+    background-color: #7e3699;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+}

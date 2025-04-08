@@ -1,0 +1,53 @@
+body {
+  background-image: url('https://wallpapers.com/images/hd/cubone-and-creepy-gengar-shadows-x14ubogpj6b782il.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-family: "Underdog", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  padding-left: 70px;
+}
+
+.content-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 80px 50px;
+  border-radius: 15px;
+  width: 420px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+a {
+  display: block;
+  padding: 12px;
+  margin: 10px 0;
+  background-color:  #7e3699;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color:  rgb(37, 1, 40);
+}

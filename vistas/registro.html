@@ -1,45 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Registrarse</title>
-        <script src="../js/registro.js"></script>
-    </head>
-    <body>
-        <center>
-            <h1>BIENVENIDO AL MUNDO POKIMON</h1>
-            <p>Bienvenido a mi primer juego en javascript</p>
-        </center>
-        <hr>
-        <br>
-        <br>
-        <br>
-        <center>
-            <p>Por favor ingrese los datos para registrarse</p>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrarse</title>
+    <script src="../js/registro.js"></script>
+    <link href="../css/registro.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Underdog&display=swap" rel="stylesheet">
 
-            <br>
-            <label>Nombre</label>
+</head>
+
+
+<body>
+    <div class="content-container">
+        <h1>BIENVENIDO AL MUNDO POKIMON</h1>
+        <p class="subtitle">Bienvenido a mi primer juego en JavaScript</p>
+
+        <p>Por favor ingrese los datos para registrarse</p>
+
+        <form onsubmit="Registrar(); return false;">
+            <div class="col">
+            <label for="nombre">Nombre</label>
             <input type="text" name="nombre" id="nombre" />
-            <br>
-            <label>Apellido</label>
+
+            <label for="apellido">Apellido</label>
             <input type="text" name="apellido" id="apellido" />
-            <br>
-            <label>Dirección</label>
-            <input type="text" name="direccion" id="direccion" />
-            <br>
-            <label>Teléfono</label>
+
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" />
+        </div>
+        <div class="col1">
+            <label for="telefono">Teléfono</label>
             <input type="text" name="telefono" id="telefono" />
-            <br>
-            <label>Email</label>
+
+            <label for="email">Email</label>
             <input type="text" name="email" id="email" />
-            <br>
-            <label>Password</label>
+
+            <label for="contrasena">Password</label>
             <input type="password" name="contrasena" id="contrasena" />
-            <br>
-            <button onclick="Registrar()">Registrar</button>
-        </center>
-        <br>
-        <br>
-    </body>
+        </div>
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+</body>
 </html>

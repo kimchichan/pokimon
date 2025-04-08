@@ -1,13 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="../js/Entrenador.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Entrenador</title>
+  <link rel="stylesheet" href="../css/entrenador.css" />
 </head>
 <body>
-    
-    
+  <div class="container">
+    <h1>Perfil del Entrenador</h1>
+
+    <section class="form-section">
+      <h2>Datos del Entrenador</h2>
+      <input type="text" id="entrenador-nombre" placeholder="Nombre" required />
+      <input type="text" id="entrenador-apellido" placeholder="Apellido" required />
+      <input type="text" id="entrenador-telefono" placeholder="Teléfono" required />
+      <input type="email" id="entrenador-email" placeholder="Correo Electrónico" required />
+    </section>
+
+    <section class="form-section">
+      <h2>Pokimón</h2>
+      <input type="text" id="pokemon-nombre" placeholder="Nombre del Pokimón" required />
+      <input type="text" id="pokemon-tipo" placeholder="Tipo" required />
+      <input type="number" id="pokemon-ataque" placeholder="Ataque" required />
+      <input type="number" id="pokemon-defensa" placeholder="Defensa" required />
+    </section>
+
+    <section class="form-section botones">
+      <button id="combatir-btn">⚔️ Combatir</button>
+      <button id="ver-pokimons-btn">🔍 Ver Pokimons</button>
+    </section>
+  </div>
+
+  <script src="../js/Entrenador.js"></script>
 </body>
 </html>
