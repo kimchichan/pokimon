@@ -20,18 +20,30 @@
 
     <section class="form-section">
       <h2>Pokimón</h2>
-      <input type="text" id="pokemon-nombre" placeholder="Nombre del Pokimón" required />
-      <input type="text" id="pokemon-tipo" placeholder="Tipo" required />
-      <input type="number" id="pokemon-ataque" placeholder="Ataque" required />
-      <input type="number" id="pokemon-defensa" placeholder="Defensa" required />
+      <select id="pokemon-nombre">
+        <option value="">-- Escoge un Pokémon --</option>
+      </select>
+      <input type="text" id="pokemon-tipo" placeholder="Tipo" required readonly />
+      <input type="number" id="pokemon-ataque" placeholder="Ataque" required readonly />
+      <input type="number" id="pokemon-defensa" placeholder="Defensa" required readonly />
     </section>
 
     <section class="form-section botones">
       <button id="combatir-btn">⚔️ Combatir</button>
-      <button id="ver-pokimons-btn">🔍 Ver Pokimons</button>
+      <button id="ver-pokimons-btn">🔍 Ver Pokemons</button>
+      <button id="guardar-pokemon-btn">💾 Guardar Pokemón</button>
+      <button id="ver-todos-btn">👀 Ver Todos</button>
+      <button id="eliminar-todos-btn">🗑️ Eliminar Todos</button> <!-- Botónes importantes -->
+      <button id="skin">👀 Ver Skin</button>
+
+
     </section>
+
+    <!-- Aquí se agregan las tarjetas de Pokemones dinámicamente -->
+    <div id="pokemon-cards-container" class="cards-container"></div>
+    
   </div>
 
-  <script src="../js/Entrenador.js"></script>
+  <script src="../js/entrenador.js"></script>
 </body>
 </html>
